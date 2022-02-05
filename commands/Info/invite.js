@@ -20,7 +20,7 @@ let color = db.get(`color_${message.author.id}`);
   if(color === null) color = "#EFB9BE";
     let helpEmbed = new MessageEmbed()
     .setAuthor(`${client.user.username} Links`, "https://images-ext-2.discordapp.net/external/Ab0oASUOj_dyvpA5iVEliz9s8w1YXszoXUr-s2CS2uQ/https/cdn.discordapp.com/avatars/884311931656237146/6aee6101fc5dcc6a4a686ee0909532dc.webp")
-      .setDescription(`*${dot} Here is invite and support server link* \n${b}${dev} **Developer:** [Supreme#2401](https://discord.gg/whJeF4mDAX)`)
+      .setDescription(`*${dot} Here is invite and support server link* \n${b}${dev} **Developer:** [araan_sheikh#4416](https://discord.gg/)`)
       .setColor(color)
 
       let button1 = new disbut.MessageButton()
