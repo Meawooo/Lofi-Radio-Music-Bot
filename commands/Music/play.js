@@ -441,7 +441,7 @@ let nhh = new MessageActionRow()
 
  const nvchelp = new MessageEmbed()
                     .setColor(color)
-                    .setDescription(`${m} **Please join VC to play lofi songs**\n${ba}${d} Developer: [Supreme#2401](https://discord.gg/whJeF4mDAX)`) 
+                    .setDescription(`${m} **Please join VC to play lofi songs**\n${ba}${d} Developer: [araan_sheikh#4416](https://discord.gg/)`) 
   
 
         const { channel } = message.member.voice;
@@ -449,7 +449,7 @@ let nhh = new MessageActionRow()
 
                 const abab = new MessageEmbed()
                     .setColor(color)
-                    .setDescription(`${d} Select the language you want to listen.\n${ba}${dev} Developer: [Supreme#2401](https://discord.gg/whJeF4mDAX)`)
+                    .setDescription(`${d} Select the language you want to listen.\n${ba}${dev} Developer: [araan_sheikh#4416](https://discord.gg/whJeF4mDAX)`)
 
                  const MESSAGE = await message.channel.send(abab, rows);
 
