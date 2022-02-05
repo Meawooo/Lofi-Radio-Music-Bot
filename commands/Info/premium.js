@@ -9,7 +9,7 @@ const {b, bnn, c, d, i, inv, m, p, pr, r, s, v, vo, lofi, su, dot, dev, lang} = 
 
 module.exports = {
   name: "premium",
-  aliases: ["paid"],
+  aliases: ["paid"], 
   description: "Information",
   premium: false,
 
@@ -22,12 +22,12 @@ let color = db.get(`color_${message.author.id}`);
 let guild = await db.get(`premium_${message.guild.id}`);
 
 if(guild) {
- if(args[0] == "supreme2022")
+ if(args[0] == "ARAAN2022")
   {
       db.set(`premium_${message.guild.id}`, true)
 
   let helpEmbeds = new MessageEmbed()
-      .setDescription(`**${pr} Server is already premium** \n${b}${dot} **Promo Code was by:** [Supreme#2401](https://discord.gg/whJeF4mDAX)`)
+      .setDescription(`**${pr} Server is already premium** \n${b}${dot} **Promo Code was by:** [araan_sheikh#4416](https://discord.gg/)`)
       .setColor(color)
 
 
